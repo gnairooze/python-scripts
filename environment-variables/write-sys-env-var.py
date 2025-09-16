@@ -4,7 +4,7 @@ import platform
 import subprocess
 
 if len(sys.argv) < 3:
-    print("Usage: python script.py <ENV_VAR_NAME> <VALUE>")
+    print("Usage: python write-sys-env-var.py <ENV_VAR_NAME> <VALUE>")
     sys.exit(1)
 
 env_var_name = sys.argv[1]
